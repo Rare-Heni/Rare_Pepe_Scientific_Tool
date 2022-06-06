@@ -1,15 +1,9 @@
-# Packages for the UI and Request
-# https://uni-ulm.zoom.us/j/4539489924?pwd=NjliRk90b1Nmakl4U0FwYVNkVTdtUT09
-# Meeting-ID: 453 948 9924
-# Kenncode: 36720641
-
 from ast import If
 from cmath import nan
 from errno import EILSEQ
 from pickle import TRUE
 import streamlit as st
 import numpy as np
-import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 import requests, json
 from web3 import Web3
