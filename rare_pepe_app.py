@@ -6,7 +6,6 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import requests, json
-from web3 import Web3
 import pandas as pd
 from requests.auth import HTTPBasicAuth
 from decimal import Decimal
