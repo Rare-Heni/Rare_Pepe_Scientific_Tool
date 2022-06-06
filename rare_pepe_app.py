@@ -122,8 +122,8 @@ if endpoint == "Counterparty":
     if card_supply != "All":
         
         if card_supply == 100:
-            df_pepes = pd.read_csv("07_all_pepes_supply_max_100_test.csv")
-            #df_pepes = pd.read_csv("07_all_pepes_supply_max_100.csv")
+            #df_pepes = pd.read_csv("07_all_pepes_supply_max_100_test.csv")
+            df_pepes = pd.read_csv("07_all_pepes_supply_max_100.csv")
 
         if card_supply == 500:
             df_pepes = pd.read_csv("08_all_pepes_supply_max_500.csv")
