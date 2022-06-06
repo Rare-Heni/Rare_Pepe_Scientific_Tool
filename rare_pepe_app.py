@@ -18,7 +18,7 @@ from pathlib import Path
 from PIL import Image
 st.set_page_config(layout="wide")
 
-ulm = Image.open("99_ulm.png")
+#ulm = Image.open("99_ulm.png")
 pepe = Image.open("99_pepe.png")
 st.sidebar.image(pepe)
 c1, c2 = st.columns((2, 2))
